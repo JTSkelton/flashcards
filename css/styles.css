@@ -1,0 +1,81 @@
+html, body{
+  Height: 100%;
+  Width: 100%;
+}
+
+.container1{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.jumbotron{
+  text-align: center;
+  background-size: cover;
+  background-color: rgb(31, 29, 29);
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 8rem 2rem;
+  }
+}
+
+.img-fluid{
+max-width: 150px;
+height: auto;
+border-radius: 20%;
+float: left;
+display: block;
+top: 10%;
+}
+
+.row1{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  
+}
+
+.card1{
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+  margin: 4px;
+  padding: 2px;
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  height: 450px;
+  
+}
+
+.card-title{
+  text-align: center;
+}
+
+.card-definition{
+  display: none;
+}
+
+h1{
+  font-family: 'Arimo', sans-serif;
+}
+
+h2{
+  font-family: 'Arimo', sans-serif;
+}
+
+h3{
+  font-family: 'Arimo', sans-serif;
+
+}
